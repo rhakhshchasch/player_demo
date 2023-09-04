@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1440px;
+    margin: auto;
+    color: #fff;
+}
+
+header {
+    height: 1024px;
+    background-image: url("images/header_bg.avif");
+    background-size: cover;
+    padding-left: 115px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+}
+
+.nav {
+    padding-top: 47px;
+    padding-right: 496px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_item {
+    padding: 0 50px;
+}
+
+.head_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-family: "Kenia", sans-serif;
+    font-size: 150px;
+    line-height: 150px;
+    margin: 191px 0 175px;
+}
+
+.head_text p {
+    font-family: "Istok Web", sans-serif;
+    font-size: 20px;
+}
+
+.head_img {
+    position: relative;
+    right: 75px;
+    bottom: 9px;
+}
+
+h2 {
+    font-family: "Karla", sans-serif;
+    font-size: 30px;
+    padding-top: 83px;
+    padding-left: 122px;
+}
+
+.music {
+    height: 1024px;
+    background-color: #d53005;
+}
+
+.music_container {
+    margin-top: 61px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.music_text {
+    position: relative;
+    left: 65px;
+}
+
+.music_text button {
+    width: 382px;
+    height: 83px;
+    font-size: 40px;
+    color: #fff;
+    padding: 18px auto;
+    margin: 44px 0;
+    background: linear-gradient(90deg, #b13e18, #f3501a);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.about {
+    height: 1024px;
+    background-color: #000;
+    box-sizing: border-box;
+    border-top: 50px solid #d53005;
+    border-image: linear-gradient(
+            to right bottom,
+            rgba(213, 48, 5, 1),
+            rgba(0, 0, 0, 1)
+        )
+        1;
+}
+
+.about p {
+    font-family: "Karla", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 358px;
+}
+
+.store {
+    height: 1024px;
+    background-color: #d53005;
+}
+
+.store_container {
+    margin-top: 51px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.store_text {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    width: 431px;
+    left: 19px;
+    right: 990px;
+    margin-bottom: 142px;
+}
+
+.store_text  button {
+    width: 240px;
+    height: 60px;
+    font-size: 20px;
+    padding: 5px auto;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.win {
+    color: #fff;
+    background: #000;
+}
+
+.macos {
+    color: #000;
+    background: #fff;
+    margin-top: 48px;
+    margin-bottom: 135px;
+}
+
+h3 {
+    font-size: 21px;
+    font-weight: 600;
+    margin-right: -20px;
+    margin-bottom: 17px;
+}
+
+.store_text p {
+    color: #fff;
+    margin-right: -20px;
+}
+
+.store_text a {
+    color: #000;
+    text-decoration: underline;
+    margin-right: -20px;
+}
+
+.store_img img {
+    height: 685px;
+}
+
+footer {
+    height: 536px;
+    background-color: #000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer_menu {
+    margin: 0 62px 76px 452px;
+    padding-top: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_menu_header {
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+.footer_menu_item {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 27px;
+}
+
+.footer_bottom {
+    margin-left: 110px;
+    margin-right: 121px;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+
+.footer_logo {
+    font-family: "Kenia", sans-serif;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.footer_cr {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.footer_links {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.footer_links a {
+    margin: 0 50px;
+}
+
+.footer_links a:first-child {
+    margin-left: 100px;
+}
+
+.footer_links a:last-child {
+    margin-right: 0;
+}
